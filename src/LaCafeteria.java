@@ -14,5 +14,25 @@ public class LaCafeteria {
         System.out.println(String.format("Cantidad en inventario: %d", stock));
         System.out.println(String.format("¿Está disponible?: %b", estaDisponible));
         System.out.println(String.format("Código del producto: %c", codigoProducto));
+
+        double subtotal = 42500.0;
+
+
+        boolean aplicaDescuento = subtotal > 30000;
+
+        double valorDescuento = 0.0;
+
+
+        if (aplicaDescuento) {
+            valorDescuento = subtotal * 0.15;
+        }
+
+
+        double totalAPagar = subtotal - valorDescuento;
+
+
+        System.out.printf("¿Tiene descuento?: %b%n", aplicaDescuento);
+        System.out.printf("Valor del descuento: $%.2f%n", valorDescuento);
+        System.out.printf("Total a pagar: $%.2f%n", totalAPagar);
     }
 }
