@@ -68,7 +68,25 @@ public class LaCafeteria {
         }
 
 
+                double montoApertura = -5000.0;
+                int intentos = 0;
+
+                do {
+                    intentos++;
+                    System.out.printf("Intento %d: Ingrese el monto de apertura de caja...%n", intentos);
+
+                    if (montoApertura <= 0) {
+                        System.out.println("Error: El monto debe ser mayor a $0.");
+
+                        montoApertura = 50000.0;
+                    }
+                } while (montoApertura <= 0);
+
+                System.out.printf("Monto de apertura registrado con éxito: $%.2f%n", montoApertura);
+
+        }
+
+
     }
 
 
-}
