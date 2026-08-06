@@ -46,9 +46,6 @@ pregunta 7
 ¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error
 lógico? ¿Cómo los distingues?
 
-
-¿Cuántos errores encontraste? Clasifica cada uno:
-
 Encontré 3 errores: dos de compilación y uno lógico.
 
 ¿Cómo los distingues?
