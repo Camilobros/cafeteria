@@ -36,10 +36,12 @@ Porque el do-while asegura que el código se ejecute al menos una vez antes de v
 
 
 pregunta 6
-¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error
-lógico? ¿Cómo los distingues?
+¿Por qué usas for aquí y no while? ¿Qué tiene el for que lo hace más conveniente cuando
+conoces el número de elementos?
 
 Uso for porque ya sé exactamente cuántos elementos tienen los arreglos (productos.length). El for es mucho más conveniente porque me permite declarar el contador, la condición y el incremento en una sola línea. Con un while tendría que armar la variable por fuera y acordarme de sumarle al contador abajo para no tirar un bucle infinito, lo que termina haciendo el código más largo y desordenado.
+
+pregunta 7
 
 
 
