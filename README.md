@@ -33,3 +33,13 @@ pregunta 5
 el orden de ejecución.
 
 Porque el do-while asegura que el código se ejecute al menos una vez antes de validar la condición, mientras que el while primero revisa la condición y si no se cumple desde el inicio, nunca entra. Para un menú o pedir datos, siempre necesitas pedir el dato al menos una primera vez antes de saber si es correcto o no.
+
+
+pregunta 6
+¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error
+lógico? ¿Cómo los distingues?
+
+Uso for porque ya sé exactamente cuántos elementos tienen los arreglos (productos.length). El for es mucho más conveniente porque me permite declarar el contador, la condición y el incremento en una sola línea. Con un while tendría que armar la variable por fuera y acordarme de sumarle al contador abajo para no tirar un bucle infinito, lo que termina haciendo el código más largo y desordenado.
+
+
+
