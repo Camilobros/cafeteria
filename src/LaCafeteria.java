@@ -55,5 +55,20 @@ public class LaCafeteria {
             default:
                 System.out.println("Error: El código ingresado no corresponde a una categoría válida.");
                 break;
+
+
+        }
+
+
+        int cafemolido = 50;
+
+        while (cafemolido > 10) {
+            System.out.println("En stock de cafe molido queda " + cafemolido);
+            cafemolido -= 2;
+        }
+
+
     }
+
+
 }
