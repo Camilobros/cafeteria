@@ -43,5 +43,18 @@ Uso for porque ya sé exactamente cuántos elementos tienen los arreglos (produc
 
 pregunta 7
 
+¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error
+lógico? ¿Cómo los distingues?
+
+
+¿Cuántos errores encontraste? Clasifica cada uno:
+
+Encontré 3 errores: dos de compilación y uno lógico.
+
+¿Cómo los distingues?
+
+Error de compilación: Es un fallo en las reglas o sintaxis del lenguaje (como olvidar un ; o asignar texto a un int). El propio IDE (IntelliJ) te los marca en rojo de una vez y no deja ni siquiera ejecutar el programa.
+
+Error lógico: Ocurre cuando la sintaxis está "bien escrita" y el programa sí arranca, pero el comportamiento o los resultados no son los esperados porque la lógica está mal planteada (como usar = en vez de == dentro del if, lo que provocaría que el descuento se aplique siempre sin importar el total).
 
 
