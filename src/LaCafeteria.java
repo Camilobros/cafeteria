@@ -37,35 +37,23 @@ public class LaCafeteria {
 
 
 
-        char catebebidascalientes = 'B';
-        char catebebidasfries = 'F';
-        char catecomida = 'C';
-        char catepostre = 'P';
+        char categoriaPedida = 'B';
 
-        char categoriapedida = 'B';
-
-        switch (categoriapedida) {
+        switch (categoriaPedida) {
             case 'B':
-                System.out.println(" Su categoria es de bebidas calientes y tiene un iva del 0%");
+                System.out.println("Categoría: Bebida caliente | IVA: 0%");
                 break;
-
             case 'F':
-                System.out.println("Su categoria es bebidas calientes y tiene un iva del 5%");
+                System.out.println("Categoría: Bebida fría | IVA: 5%");
                 break;
-
-                case 'C':
-                    System.out.println("Su categoria es de comida y tiene un iva del 8%");
-                    break;
-
+            case 'C':
+                System.out.println("Categoría: Comida | IVA: 8%");
+                break;
             case 'P':
-                System.out.println("Su  categoria es postres y tiene un iva del 8%");
-
+                System.out.println("Categoría: Postre | IVA: 8%");
                 break;
-
-
             default:
-                System.out.println("Su codigo no es una categoria valida");
-
-        }
+                System.out.println("Error: El código ingresado no corresponde a una categoría válida.");
+                break;
     }
 }
