@@ -26,3 +26,10 @@ pregunta 4
 caso?
 
 se haria un blugle infinito, lo preveni poniendole al final una parte que le reste cafemolido -= 2;
+
+pregunta 5
+
+¿Por qué do-while es más apropiado que while aquí? Describe con tus palabras la diferencia en
+el orden de ejecución.
+
+Porque el do-while asegura que el código se ejecute al menos una vez antes de validar la condición, mientras que el while primero revisa la condición y si no se cumple desde el inicio, nunca entra. Para un menú o pedir datos, siempre necesitas pedir el dato al menos una primera vez antes de saber si es correcto o no.
